@@ -42,7 +42,7 @@ function App() {
       <div className="status">
         {winner ? `${winner === '✓' ? 'PLAYER 1' : 'PLAYER 2'} WON!` : 
          isTie ? "IT'S A TIE!" : 
-         `PLAYER ${isXNext ? '1' : '2'} WON!`}
+         `PLAYER ${isXNext ? '1' : '2'}'S TURN`}
       </div>
       <div className="board">
         {board.map((cell, index) => (
